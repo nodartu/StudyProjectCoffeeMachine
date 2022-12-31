@@ -17,7 +17,7 @@ func remaining(s []int) {
 }
 func check(s []int, water, milk, beans, cups, money int) {
 	if s[0] < water {
-		fmt.Println("Sorry, not enough water!")
+		fmt.Println("Sorry not enough water!")
 	} else if s[1] < milk {
 		fmt.Println("Sorry, not enough milk!")
 	} else if s[2] < beans {
